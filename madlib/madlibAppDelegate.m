@@ -6,10 +6,12 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
+#import "MainViewController.h"
 #import "madlibAppDelegate.h"
 
 @implementation madlibAppDelegate
 
+@synthesize theViewController=_theViewController;
 
 @synthesize window=_window;
 
@@ -17,9 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    MainViewController *vControl = [[MainViewController alloc]
+                                    initWithNibName:@"MainViewController" bundle:[NSBundle mainBundle]];
+    [self setTheViewController:vControl];
+    [vControl release];
+
     // Override point for customization after application launch.
     // Add the navigation controller's view to the window and display.
-    self.window.rootViewController = self.navigationController;
+    self.window.rootViewController = self.theViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -65,6 +72,7 @@
 
 - (void)dealloc
 {
+    [_theViewController release];
     [_window release];
     [_navigationController release];
     [super dealloc];

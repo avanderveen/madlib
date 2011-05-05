@@ -22,6 +22,8 @@
 		40F738D713733A5800D893B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40F738D513733A5800D893B1 /* InfoPlist.strings */; };
 		40F738DA13733A5800D893B1 /* madlibTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 40F738D913733A5800D893B1 /* madlibTests.h */; };
 		40F738DC13733A5800D893B1 /* madlibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F738DB13733A5800D893B1 /* madlibTests.m */; };
+		40F738E813733AEF00D893B1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F738E613733AEF00D893B1 /* MainViewController.m */; };
+		40F738E913733AEF00D893B1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F738E713733AEF00D893B1 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +41,25 @@
 		40F738AC13733A5800D893B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		40F738AE13733A5800D893B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		40F738B013733A5800D893B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		40F738B413733A5800D893B1 /* madlib-Info.plist */ = {isa = PBXFileReference; path = "madlib-Info.plist"; sourceTree = "<group>"; };
+		40F738B413733A5800D893B1 /* madlib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "madlib-Info.plist"; sourceTree = "<group>"; };
 		40F738B613733A5800D893B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		40F738B813733A5800D893B1 /* madlib-Prefix.pch */ = {isa = PBXFileReference; path = "madlib-Prefix.pch"; sourceTree = "<group>"; };
+		40F738B813733A5800D893B1 /* madlib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "madlib-Prefix.pch"; sourceTree = "<group>"; };
 		40F738B913733A5800D893B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		40F738BB13733A5800D893B1 /* madlibAppDelegate.h */ = {isa = PBXFileReference; path = madlibAppDelegate.h; sourceTree = "<group>"; };
+		40F738BB13733A5800D893B1 /* madlibAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = madlibAppDelegate.h; sourceTree = "<group>"; };
 		40F738BC13733A5800D893B1 /* madlibAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = madlibAppDelegate.m; sourceTree = "<group>"; };
 		40F738BF13733A5800D893B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		40F738C113733A5800D893B1 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		40F738C113733A5800D893B1 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		40F738C213733A5800D893B1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		40F738C513733A5800D893B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		40F738CC13733A5800D893B1 /* madlibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = madlibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		40F738D413733A5800D893B1 /* madlibTests-Info.plist */ = {isa = PBXFileReference; path = "madlibTests-Info.plist"; sourceTree = "<group>"; };
+		40F738D413733A5800D893B1 /* madlibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "madlibTests-Info.plist"; sourceTree = "<group>"; };
 		40F738D613733A5800D893B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		40F738D813733A5800D893B1 /* madlibTests-Prefix.pch */ = {isa = PBXFileReference; path = "madlibTests-Prefix.pch"; sourceTree = "<group>"; };
+		40F738D813733A5800D893B1 /* madlibTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "madlibTests-Prefix.pch"; sourceTree = "<group>"; };
 		40F738D913733A5800D893B1 /* madlibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = madlibTests.h; sourceTree = "<group>"; };
 		40F738DB13733A5800D893B1 /* madlibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = madlibTests.m; sourceTree = "<group>"; };
+		40F738E513733AEF00D893B1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		40F738E613733AEF00D893B1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		40F738E713733AEF00D893B1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +125,9 @@
 				40F738C213733A5800D893B1 /* RootViewController.m */,
 				40F738C413733A5800D893B1 /* RootViewController.xib */,
 				40F738B313733A5800D893B1 /* Supporting Files */,
+				40F738E513733AEF00D893B1 /* MainViewController.h */,
+				40F738E613733AEF00D893B1 /* MainViewController.m */,
+				40F738E713733AEF00D893B1 /* MainViewController.xib */,
 			);
 			path = madlib;
 			sourceTree = "<group>";
@@ -225,6 +233,7 @@
 				40F738B713733A5800D893B1 /* InfoPlist.strings in Resources */,
 				40F738C013733A5800D893B1 /* MainWindow.xib in Resources */,
 				40F738C613733A5800D893B1 /* RootViewController.xib in Resources */,
+				40F738E913733AEF00D893B1 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +272,7 @@
 				40F738BA13733A5800D893B1 /* main.m in Sources */,
 				40F738BD13733A5800D893B1 /* madlibAppDelegate.m in Sources */,
 				40F738C313733A5800D893B1 /* RootViewController.m in Sources */,
+				40F738E813733AEF00D893B1 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class MainViewController;
+
 @interface madlibAppDelegate : NSObject <UIApplicationDelegate> {
 
 }
+
+@property (nonatomic, retain) MainViewController *theViewController;
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
